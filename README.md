@@ -13,6 +13,7 @@ the backend (so there's no CORS and no exposed secret).
 ## Architecture
 
 
+
 ```
 browser ──▶ Next.js (same-origin /api/*)  ──inject X-Admin-Password──▶  FastAPI backend
             │  · login → httpOnly cookie session (iron-session)
