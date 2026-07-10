@@ -10,6 +10,7 @@ login sets an httpOnly session cookie, and server-side route handlers proxy to
 the backend (so there's no CORS and no exposed secret).
 
 
+
 ## Architecture
 
 
